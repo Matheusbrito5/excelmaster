@@ -70,10 +70,12 @@
             100% { box-shadow: 0 0 0 0 rgba(255, 193, 7, 0); }
         }
 
-        /* HERO SECTION - SEM FOTO (DEGRADÊ ELEGANTE) */
+        /* HERO SECTION COM BANNER */
         header { 
-            /* Degradê do Verde Excel Escuro para o Preto */
-            background: linear-gradient(135deg, #0e5c30 0%, #083b1f 50%, #121212 100%);
+            /* AQUI ESTÁ A IMAGEM - CERTIFIQUE-SE QUE O ARQUIVO SE CHAMA banner.jpg */
+            background: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.95)), url('banner.jpg');
+            background-size: cover;
+            background-position: center top;
             padding: 100px 20px 80px;
             border-bottom: 3px solid var(--primary);
             min-height: 70vh; 
